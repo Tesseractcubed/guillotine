@@ -1,0 +1,2 @@
+This is where I dump data about environment management, etc, instead of in source.
+Fundamentally, source should have all the dependencies, but as we add on different versions of different languages... this os folder will fill up.
