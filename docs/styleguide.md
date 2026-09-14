@@ -10,7 +10,7 @@ Personally, I am not good at coding. I write documentation for tommorow's me, in
  - Functions should use CamelCase names, leading letter capitalized.
  - 
 ### Variables
-
+ - Variable should use lowercase with "_" as a word separator. 
 ### Comments:
  - In line comments explaining what inputs, outputs, and transformations a function does are heavily recommended.
 

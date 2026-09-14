@@ -1,0 +1,70 @@
+Graph Board Game Tool (prior name)
+
+
+File Format:
+
+Standard Info
+Application Definition / Standard Info
+	List Key
+	Matrix Key
+
+List
+
+Matrix
+
+
+
+File Manipulation Tools:
+
+Create
+ - Create Clean Sheet
+	- Create List Key
+	- Create Matrix Key
+	- Create Schema
+ - Create new item
+	^ Mostly for turning something like JSON into an object
+Read
+ - Read Info of List Element
+ - Read Info of Matrix Element
+ - Read Sliced data of List or Matrix
+
+Update
+ - Update Info of List Element
+ - Remove List Element
+ - Add List Element
+ - Update Info of Matrix Element
+ - Add or Remove Matrix Element Attribute
+
+
+Delete
+ - Delete element data
+ - Delete Element
+ - Delete whole file
+
+
+
+Programming philosophy
+
+Python, probably lists of lists or matrix elements.
+
+I see no reason why accessing a list of lists should be too difficult to create decently robust methods with list accessing.
+
+This is specifically a tool designed for map data; do I add in elements to make this a useful history tool for games like diplomacy? I think there are better formats for that data, but would have to stare at realpolitik files a bit more.
+
+
+If I had to do Realpolitik 1.5 / srqt(2)... I'd structure it as the following components being associated with a game:
+Standards used
+Graphics (default setup, separate)
+Map Logic
+Game setup
+Game history and current state
+Adjudicator used
+Information shown to player (Fog of war or not)
+XML parsing of inkscape svg drawing (Graphics logic)
+GIMP rendering of svg drawing into png (Output graphics)
+uv for environment management, and running the "container" during testing
+
+
+Realpolitik 1.5 is intended to be a headless diplomacy tool (extendable to other programs and applications, specifically graph based games) taking inputs of map changes and rendering them, handling variants configured for the program gracefully, and eventually extending to full adjudication and different rulesets. The program will be packaged with conversion tools for editing .svg files into ones that the computer can easily adjust.
+Realpolitik 2.0 is intended to be a cross platform diplomacy interface (for linux, windows, mac, ios, android, and headless), supporting a variety of variants and rulesets. The program will be packaged with additional tools and scripts for variant creation, local hosting and managing of games, etc.
+The main problems the development of Realpolitik 2.0 will be the graphical user interface, and the multiplayer beyond pass and play. Probably will hook this up to an email, but will have to see.
