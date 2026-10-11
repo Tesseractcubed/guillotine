@@ -7,3 +7,13 @@ def SortNodes(sorting_argument): # Creates list of nodes, sorts them according t
 
 def SortingMethods(): # Sorting methods for sort nodes.
     return
+
+"""
+File loading and saving data here
+"""
+
+def LoadGameFromFile(): # Loads game from file into Python
+    return
+
+def SaveGameToFile(): # Saves game to file from Python
+    return
