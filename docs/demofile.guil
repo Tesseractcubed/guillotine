@@ -1,0 +1,26 @@
+Standard
+    Standard details
+
+Map Logic
+List Key:
+    [[
+    ["Province Name","Alternate Spelling", etc],
+    ["Province Abbr","List of permutations"],
+    "AllowedUnitList","Coasts + Coast Handling"
+    ],
+    ["Graphics Info"]]
+"""A coast generally is an adjacency restriction, meaning some adjacencies are suppressed based on a unit's type and (not sure about phrasing) subprovince location, which in classic diplomacy is defined as a coast."""
+Matrix Key
+    [["Adjacency Name(Typically generated, occasially named)","Unit1Weight","Unit2Weight",etc.],["Graphics Info"]]
+List
+[
+["London",["Lon","207"],11,],
+[1, 1, 1],
+[1, 1, 1]]
+
+Matrix
+[
+[[1, 1, 1],[1, 1, 1],[1, 1, 1]],
+[[1, 1, 1],[1, 1, 1],[1, 1, 1]],
+[[1, 1, 1],[1, 1, 1],[1, 1, 1]]
+]
