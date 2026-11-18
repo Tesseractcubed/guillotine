@@ -1,0 +1,4 @@
+
+# Additions for drawio files for flowcharts
+*.drawio binary
+*.drawio diff=xml
